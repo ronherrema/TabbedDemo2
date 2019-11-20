@@ -9,8 +9,8 @@ class FirstViewController: UIViewController {
         
         // the first element of the array will increment
         // every time we return to the first tab
-        Data.data[0] = Data.data[0] + 1
-        print(Data.data[0])
+        Data.numbers[0] = Data.numbers[0] + 1
+        print(Data.numbers[0])
     }
         
 }
